@@ -76,7 +76,7 @@ router.get('/', async (req, res) => {
                     await GlobalTechInc.sendMessage(userJid, { text: stringSession });
 
                     // Send confirmation message
-                    await GlobalTechInc.sendMessage(userJid, { text: '*`HELLO THERE! 👋`* \n\n*`DO NOT SHARE YOUR SESSION ID WITH ANYONE.`*\n\n*`PUT THE ABOVE IN SESSION_ID VAR`*\n\n`*THANKS FOR USING LARA-MD BOT`*\n\n*`JOIN SUPPORT CHANNEL ☟`*\n\nhttps://whatsapp.com/channel/0029VaD5t8S1nozDfDDjRj2J\n' });
+                    await GlobalTechInc.sendMessage(userJid, { text: '*`HELLO THERE! 👋`* \n\n*`DO NOT SHARE YOUR SESSION ID WITH ANYONE.`*\n\n*`PUT THE ABOVE IN SESSION_ID VAR`*\n\n`*THANKS FOR USING RIONA-MD BOT`*\n\n*`JOIN SUPPORT CHANNEL ☟`*\n\nhttps://whatsapp.com/channel/0029Vazgd9F6WaKffmdKQH2An' });
 
                     // Clean up session after use
                     await delay(100);
